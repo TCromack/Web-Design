@@ -1,0 +1,138 @@
+/* Tyler Cromack - Web Quiz
+*/
+#directions{
+	background-color:#326c8c;
+	padding-top: 6px;	
+	padding-bottom: 25px;	
+}
+
+#home{
+	background-color:#5c4a44;
+	padding-top: 100px;	
+}
+
+#home img{
+	height: 200px;
+	width: 18%;
+	border-width: 6px;
+	border-style: solid;
+	border-color: #fceebc;
+}
+
+
+#menu{
+  background-color:#c99685;
+  padding-bottom: 25px;	
+}
+
+#menu img{
+	height: auto;
+	width: 38%;
+	border-width: 4px;
+	border-style: solid;
+	border-color: black;
+}
+
+#menu h2,#directions h2, #home p, footer{
+	color: #ffffff;
+}
+
+#logo {
+    display: flex;
+    height: 50px;
+	width: 100%;
+    float: right;
+    padding:10px;
+    margin-right: -20px;
+	align-items: center;
+	justify-content: space-evenly;
+	background: #52483c;
+	border-width: 6px;
+	border-style: solid;
+	border-color: #fceebc;
+}
+
+#logo img{
+    height: 100px;
+	border-width: 6px;
+	border-style: solid;
+	border-color: #fceebc;
+	margin-left: 50px;
+}
+
+#logo a{
+    padding-right: 100px;
+	
+}
+
+#sandwich {
+	margin-left: 16%;
+	margin-right: 16%;
+}
+
+body, html {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-color: #5c4a44;
+  color: black;
+}
+
+footer{
+	background-color:#077777;
+	padding: 25px;
+	text-align:center;	
+}
+
+header {
+   background-color:#5c4a44;
+   padding: 25px 0px 0px 0px;
+}
+
+h1{
+	color: #fceebc;
+	padding-right: 185px;
+}
+
+h2, section a{
+	color: #fceebc;
+}
+
+h1, section{
+	text-align:center;
+}
+
+section h2{
+	padding-top: 15px;
+}
+
+section p{
+	padding-bottom: 15px;
+}
+
+nav {
+    height: 160px;
+    overflow: hidden;
+}
+
+nav a, nav a:visited {
+    float: left;
+    display: flex;
+    vertical-align: middle;
+    height: 100%;
+	align-items: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav a:hover, nav a:active {
+    text-decoration: none;
+	color: #fceebc;
+}
+
+
+
+
+
+
+
